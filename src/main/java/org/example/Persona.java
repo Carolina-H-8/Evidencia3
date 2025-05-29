@@ -17,5 +17,13 @@ public class Persona {
         this.peso = peso;
 
     }
+    public void ImprimirDatos() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("FechaNacimiento: " + fechaNacimiento);
+        System.out.println("Genero: " + genero);
+        System.out.println("Estatura: " + estatura);
+        System.out.println("Peso: " + peso);
+    }
 
 }
