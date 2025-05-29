@@ -1,7 +1,7 @@
 package org.example;
 
 public class Profesor extends Persona {
-    private static Profesor[] listaProfesores = new Profesor[2];
+    private static Profesor[] listaProfesores = new Profesor[50];
     private static int contador = 0;
     private String Curso;
 
