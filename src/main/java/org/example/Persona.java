@@ -17,6 +17,9 @@ public class Persona {
         this.peso = peso;
 
     }
+    public String getNombre() {
+        return nombre;
+    }
     public void ImprimirDatos() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
