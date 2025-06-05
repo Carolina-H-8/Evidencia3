@@ -21,7 +21,7 @@ public class Profesor extends Persona {
     public static void mostarDatos() {
         for(int i=0; i<listaProfesores.length; i++){
             Profesor p = listaProfesores[i];
-            System.out.println(p.getNombre() +"Curso : "+p.Curso);
+            System.out.println(p.getNombre()+":" +" Curso:"+p.Curso);
         }
     }
 
